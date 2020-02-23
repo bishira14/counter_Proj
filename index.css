@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("img/tech-background.png") center/cover no-repeat;
+  font-family: calibri, sans-serif;
+  font-size: 1.5rem;
+}
+
+.container{
+  border: solid 3px grey;
+  border-radius: 7px;
+  padding: 2rem;
+  text-align: center;
+  flex: 0 0 30%;
+  box-shadow: 3px 3px 10px 10px #000;
+}
+
+#counter{
+  font-size: 5rem;
+}
+.btn{
+  background-color: rgba(255, 255, 255);
+  border: solid 2px rgb(0, 128, 0);
+  border-radius: 7px;
+  margin: 0.25rem 1.5rem;
+  font-size: 1.5rem;
+  outline: none;
+  box-shadow: 0 2px #000;
+}
+
+.btn:hover{
+  color: rgb(255, 165, 0);
+}
+
+.btn:active{
+  box-shadow: 0 0;
+}
